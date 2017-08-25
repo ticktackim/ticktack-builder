@@ -27,7 +27,7 @@ sudo apt-get install icnsutils graphicsmagick xz-utils
 npm install 7zip-bin-linux
 ```
 
-(looks like `7zip-bin` is being fancy .. the package-lock Matt uploaded has `7zip-bin-mac` in in)
+(**WARNING - looks like `7zip-bin` is being fancy** .. the package-lock Matt uploaded has `7zip-bin-mac` in in)
 
 ## Stamp Release
 
