@@ -61,8 +61,10 @@
   },
   "private": true,
   "devDependencies": {
-    "electron": "~1.7.5",
+    "electron": "~1.6.11",
     "electron-builder": "^19.4.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "7zip-bin-linux": "^1.1.0"
+  }
 }
