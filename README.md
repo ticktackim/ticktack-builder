@@ -1,5 +1,7 @@
 # ticktack-builder
 
+repo also here : `ssb://%ZAOs/YgFC6LiwbPBBkKVT3ldklCJ6eiE70a1ACCTfpk=.sha256`
+
 ## Setup
 
 ```shell
