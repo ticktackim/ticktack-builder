@@ -41,3 +41,15 @@ $ npm run release
 
 Output to `./dist`
 
+## Apple signing
+
+1. buy a developer license D:
+2. go to https://developer.apple.com/account/mac/certificate/ and change the view to be macOS (not iOS)
+3. hit `[+]` to create a new certificate (I think you want both installer + application certs)
+  - Production: Developer ID > Developer ID Installer (and later Developer ID Application)
+  - follow the steps for making a certificate signing request (CSR)
+  - download your certificates (.cer files)
+4. double click on each .cer file. You should now see them under "My Certificates"
+5. Run `npm run release` and the builder should auto-find the certificates. (it will let you know if it doesn't!)
+
+NOTE: you might have to install `7zip-bin-mac` for the release to work on mac
