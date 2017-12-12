@@ -62,7 +62,7 @@
   "private": true,
   "devDependencies": {
     "electron": "~1.6.11",
-    "electron-builder": "^19.4.2"
+    "electron-builder": "^19.48.3"
   },
   "dependencies": {}
 }
