@@ -24,23 +24,20 @@
     ],
     "npmSkipBuildFromSource": true,
     "npmArgs": [
-      "--abi=53"
+      "--abi=57"
     ],
     "files": [
       "**/*",
       "!node_modules/**/deps${/*}",
       "!node_modules/**/_node_modules${/*}",
       "!node_modules/sodium-native/prebuilds${/*}",
-      "node_modules/sodium-native/prebuilds/${os}-${arch}/electron-53.node",
+      "node_modules/sodium-native/prebuilds/${os}-${arch}/electron-57.node",
       "node_modules/sodium-native/prebuilds/${os}-${arch}/libsodium.*"
     ],
-    "dmg": {
-      "icon": "build/dmg-icon.icns"
-    },
     "mac": {
       "icon": "build/icon.icns",
       "files": [
-        "node_modules/sodium-native/prebuilds/darwin-${arch}/electron-53.node",
+        "node_modules/sodium-native/prebuilds/darwin-${arch}/electron-57.node",
         "node_modules/sodium-native/prebuilds/darwin-${arch}/libsodium.*"
       ]
     },
@@ -51,9 +48,16 @@
       "icon": "build/icon.ico",
       "publisherName": "Secure Scuttlebutt Consortium",
       "files": [
-        "node_modules/sodium-native/prebuilds/win32-${arch}/electron-53.node",
+        "node_modules/sodium-native/prebuilds/win32-${arch}/electron-57.node",
         "node_modules/sodium-native/prebuilds/win32-${arch}/libsodium.*"
       ]
+    },
+    "dmg": {
+      "icon": "build/dmg-icon.icns",
+      "artifactName": "Ticktack-${version}-mac.${ext}"
+    },
+    "appImage": {
+      "artifactName": "Ticktack-${version}-linux-${arch}.${ext}"
     },
     "nsis": {
       "installerIcon": "build/setup-icon.ico"
@@ -61,8 +65,7 @@
   },
   "private": true,
   "devDependencies": {
-    "electron": "~1.6.11",
-    "electron-builder": "^19.48.3"
-  },
-  "dependencies": {}
+    "electron": "~1.8.1",
+    "electron-builder": "^19.46.9"
+  }
 }
