@@ -53,14 +53,14 @@
       ]
     },
     "dmg": {
-      "icon": "build/dmg-icon.icns",
+      "icon": "build/installer.icns",
       "artifactName": "Ticktack-${version}-mac.${ext}"
     },
     "appImage": {
       "artifactName": "Ticktack-${version}-linux-${arch}.${ext}"
     },
     "nsis": {
-      "installerIcon": "build/setup-icon.ico"
+      "installerIcon": "build/installer.ico"
     }
   },
   "private": true,
