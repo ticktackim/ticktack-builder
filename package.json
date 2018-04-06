@@ -65,7 +65,7 @@
   },
   "private": true,
   "devDependencies": {
-    "electron": "~1.8.1",
+    "electron": "^1.8.4",
     "electron-builder": "^19.46.9"
   }
 }
